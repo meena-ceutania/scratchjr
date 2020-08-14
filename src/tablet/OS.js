@@ -29,6 +29,10 @@ export default class OS {
         return camera;
     }
 
+    static set camera (newCamera) {
+        camera = newCamera;
+    }
+
     static get database () {
         return database;
     }
